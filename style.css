@@ -227,10 +227,11 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
-
+    width: 33.33%;
     padding: 24px;
 }
 
@@ -247,7 +248,7 @@ FEATURES
 }
 
 .book:hover .book__img {
-    transform: scale(1.03)
+    transform: scale(1.03);
 }
 
 .book__title {
